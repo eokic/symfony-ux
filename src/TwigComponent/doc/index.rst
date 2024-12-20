@@ -929,6 +929,10 @@ component's template:
       My Component!
     </div>
 
+.. note::
+
+    Quick reminder that passing an array of attributes to the *Component* requires the spread operator syntax (``<twig:MyComponent {{ ...attributes }} />``). See `Component HTML Syntax`_.
+
 When rendering the component, you can pass an array of html attributes to add:
 
 .. code-block:: html+twig
@@ -1796,6 +1800,7 @@ https://symfony.com/doc/current/contributing/code/bc.html
 .. _`Live Components`: https://symfony.com/bundles/ux-live-component/current/index.html
 .. _`live component`: https://symfony.com/bundles/ux-live-component/current/index.html
 .. _`Vue`: https://v3.vuejs.org/guide/computed.html
+.. _`Component HTML Syntax`: https://symfony.com/bundles/ux-live-component/current/index.html#component-html-syntax
 .. _`Live Nested Components`: https://symfony.com/bundles/ux-live-component/current/index.html#nested-components
 .. _`Passing Blocks to Live Components`: https://symfony.com/bundles/ux-live-component/current/index.html#passing-blocks
 .. _`Stimulus controller`: https://symfony.com/bundles/StimulusBundle/current/index.html
